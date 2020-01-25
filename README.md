@@ -6,4 +6,4 @@ This repo contains 3 Xcode projects all implementing the same app idea.
 
 >Create an application that presents the user with an interface to choose their birthdate. Based on that info, calculate and display both their age and the date of their next birthday.
 
-For full details, check out the article on [my blog]().
+For full details, check out the article on [my blog](https://bengohlke.com/tech_education/app_review/age-calculator/).
