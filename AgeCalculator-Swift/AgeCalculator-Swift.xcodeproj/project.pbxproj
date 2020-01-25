@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3C8A4D923C6CBB90098FED4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C8A4D823C6CBB90098FED4 /* AppDelegate.swift */; };
+		F3C8A4DB23C6CBB90098FED4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C8A4DA23C6CBB90098FED4 /* SceneDelegate.swift */; };
+		F3C8A4DD23C6CBB90098FED4 /* AgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C8A4DC23C6CBB90098FED4 /* AgeViewController.swift */; };
+		F3C8A4E023C6CBB90098FED4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C8A4DE23C6CBB90098FED4 /* Main.storyboard */; };
+		F3C8A4E223C6CBBB0098FED4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3C8A4E123C6CBBB0098FED4 /* Assets.xcassets */; };
+		F3C8A4E523C6CBBB0098FED4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C8A4E323C6CBBB0098FED4 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F3C8A4D523C6CBB90098FED4 /* AgeCalculator-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AgeCalculator-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C8A4D823C6CBB90098FED4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3C8A4DA23C6CBB90098FED4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F3C8A4DC23C6CBB90098FED4 /* AgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeViewController.swift; sourceTree = "<group>"; };
+		F3C8A4DF23C6CBB90098FED4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3C8A4E123C6CBBB0098FED4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3C8A4E423C6CBBB0098FED4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3C8A4E623C6CBBB0098FED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3C8A4D223C6CBB90098FED4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3C8A4CC23C6CBB90098FED4 = {
+			isa = PBXGroup;
+			children = (
+				F3C8A4D723C6CBB90098FED4 /* AgeCalculator-Swift */,
+				F3C8A4D623C6CBB90098FED4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3C8A4D623C6CBB90098FED4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3C8A4D523C6CBB90098FED4 /* AgeCalculator-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3C8A4D723C6CBB90098FED4 /* AgeCalculator-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				F3C8A4D823C6CBB90098FED4 /* AppDelegate.swift */,
+				F3C8A4DA23C6CBB90098FED4 /* SceneDelegate.swift */,
+				F3C8A4DC23C6CBB90098FED4 /* AgeViewController.swift */,
+				F3C8A4DE23C6CBB90098FED4 /* Main.storyboard */,
+				F3C8A4E123C6CBBB0098FED4 /* Assets.xcassets */,
+				F3C8A4E323C6CBBB0098FED4 /* LaunchScreen.storyboard */,
+				F3C8A4E623C6CBBB0098FED4 /* Info.plist */,
+			);
+			path = "AgeCalculator-Swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3C8A4D423C6CBB90098FED4 /* AgeCalculator-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3C8A4E923C6CBBB0098FED4 /* Build configuration list for PBXNativeTarget "AgeCalculator-Swift" */;
+			buildPhases = (
+				F3C8A4D123C6CBB90098FED4 /* Sources */,
+				F3C8A4D223C6CBB90098FED4 /* Frameworks */,
+				F3C8A4D323C6CBB90098FED4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AgeCalculator-Swift";
+			productName = "AgeCalculator-Swift";
+			productReference = F3C8A4D523C6CBB90098FED4 /* AgeCalculator-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3C8A4CD23C6CBB90098FED4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Ben Gohlke";
+				TargetAttributes = {
+					F3C8A4D423C6CBB90098FED4 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = F3C8A4D023C6CBB90098FED4 /* Build configuration list for PBXProject "AgeCalculator-Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3C8A4CC23C6CBB90098FED4;
+			productRefGroup = F3C8A4D623C6CBB90098FED4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3C8A4D423C6CBB90098FED4 /* AgeCalculator-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3C8A4D323C6CBB90098FED4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C8A4E523C6CBBB0098FED4 /* LaunchScreen.storyboard in Resources */,
+				F3C8A4E223C6CBBB0098FED4 /* Assets.xcassets in Resources */,
+				F3C8A4E023C6CBB90098FED4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3C8A4D123C6CBB90098FED4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C8A4DD23C6CBB90098FED4 /* AgeViewController.swift in Sources */,
+				F3C8A4D923C6CBB90098FED4 /* AppDelegate.swift in Sources */,
+				F3C8A4DB23C6CBB90098FED4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3C8A4DE23C6CBB90098FED4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3C8A4DF23C6CBB90098FED4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3C8A4E323C6CBBB0098FED4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3C8A4E423C6CBBB0098FED4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3C8A4E723C6CBBB0098FED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3C8A4E823C6CBBB0098FED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3C8A4EA23C6CBBB0098FED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AgeCalculator-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bengohlke.AgeCalculator-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3C8A4EB23C6CBBB0098FED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AgeCalculator-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bengohlke.AgeCalculator-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3C8A4D023C6CBB90098FED4 /* Build configuration list for PBXProject "AgeCalculator-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3C8A4E723C6CBBB0098FED4 /* Debug */,
+				F3C8A4E823C6CBBB0098FED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3C8A4E923C6CBBB0098FED4 /* Build configuration list for PBXNativeTarget "AgeCalculator-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3C8A4EA23C6CBBB0098FED4 /* Debug */,
+				F3C8A4EB23C6CBBB0098FED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3C8A4CD23C6CBB90098FED4 /* Project object */;
+}
